@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	/*后代选择器 选择子孙后代*/
+       .nav a{
+       	color: pink;
+       }
+       .wangsicong ul li{
+       	color: blue;
+       }
+       /*子元素选择器*/
+       div>strong{
+       	 color: green;
+       }
+       /*交集选择器*/
+       p.red{
+       	color: red;
+       }
+       /*并集选择器*/
+       span,
+       .sunzi strong{
+       	color: purple;
+       }
+    </style>
+</head>
+<body>
+	<div class="nav">
+      <a href="#">内部链接</a>
+      <a href="#">内部链接</a>
+      <a href="#">内部链接</a>
+	</div>
+	  <a href="#">外部链接</a>
+	  <a href="#">外部链接</a>
+	  <a href="#">外部链接</a>
+	  <p class="red">红色</p>
+	  <p class="red">红色</p>
+	  <p class="red">红色</p>
+	  <div class="wangsicong">
+           <ul>
+           	<li>王可可</li>
+           	<li>王可可</li>
+           	<li>王可可</li>
+           </ul>
+	  </div>
+	  <div>
+	  	<strong>儿子</strong>
+	  	<strong>儿子</strong>
+	  	<strong>儿子</strong>
+	  </div>
+	 <div class="sunzi">
+	 	<p>
+	 		<strong>孙子</strong>
+	 		<strong>孙子</strong>
+	 		<strong>孙子</strong>
+	 	</p>
+	 </div>
+	 <span>啦啦啦</span>
+	 <span>啦啦啦</span>
+	 <span>啦啦啦</span>
+</body>
+</html>

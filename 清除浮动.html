@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.clearfix:after{
+			content: "";
+			display: block;
+			height: 0;
+			visibility: hidden;
+			clear: both;
+		}
+		.clerafix {
+			*zoom:1;   /*ie6,7 专门清除浮动的样式*/
+		}
+		.one{
+			width: 500px;
+			float: none;
+			border: 1px solid red;
+			background-color: green;
+			/*清除浮动*/
+			/*overflow: hidden;*/
+		}
+		.damao{
+			float: left;
+			width: 200px;
+			height: 200px;
+			background-color: red;
+		}
+		.ermao{
+			float: left;
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+		}				
+		.two{
+			width: 400px;
+			height: 200px;
+			background-color: black;
+		}
+		/*清除浮动*/
+		/*.clear{
+			clear: both;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="one clearfix">
+		<div class="damao"></div>
+		<div class="ermao"></div>
+		<!-- <div class="clear"></div> -->
+	</div>
+	<div class="two"></div>
+	
+</body>
+</html>

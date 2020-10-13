@@ -1,0 +1,32 @@
+h1{
+
+	color: green;
+	font-size: 20px;
+}
+div{
+    color: green;
+    font-size: 20px;
+}
+span{
+	color: green;
+	font-size: 20px;
+}
+.fun{
+   color: red;
+}
+.blue{
+   color: blue;
+   font-size: 100px; 
+}
+.red{
+	color: red;
+	font-size: 100px;
+}
+.yellow{
+	color:orange;
+	font-size: 100px;
+}
+.green{
+	color: green;
+	font-size: 100px;
+}

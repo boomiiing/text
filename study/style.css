@@ -1,0 +1,430 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+button{
+	border:none;
+}
+body{
+
+	background-color: #f3f5f7;
+}
+/*版心1200 水平居中*/
+.w{
+	width: 1200px;
+	margin:auto;
+}
+.header{
+
+	height: 42px;
+	margin: 30px auto;
+	background-color: #f3f5f7;
+}
+.nav ul li{
+	float: left;
+}
+.logo{
+	float: left;
+	margin-right: 60px;
+}
+.nav{
+	float: left;
+}
+.nav ul li a{
+	display: block;
+	height: 40px;
+	padding: 0 10px;
+	margin-right: 20px;
+	line-height: 40px;
+	font-size: 18px;
+	color: #050505;
+	text-decoration: none;
+}
+.nav ul li a:hover{
+	border-bottom: 2px solid #00a4ff;
+}
+.search{
+	width: 411px;
+	height: 42px;
+	float: left;
+	margin-left: 70px;
+}
+.search input{
+	width: 340px;
+	height: 40px;
+	border:1px solid #00a4ff;
+	border-right: 0;
+	padding-left: 20px;
+	color: #ccc;
+	float: left;
+}
+.search button{
+	width: 50px;
+	height: 42px;
+	background:url(images/sousuo.png);
+}
+.user{
+	float: left;
+	line-height: 40px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+	font-size: 14px;
+	color: #666;
+	
+}
+.banner{
+	height: 420px;
+	background: #1c036c url(images/banner2.jpg) no-repeat top center;
+
+}
+.subnav{
+	float: left;
+	width: 150px;
+	height: 420px;
+	padding: 0 20px;
+	background-color: rgb(0, 0, 0, .3);
+}
+.subnav ul li {
+	height: 45px;
+	line-height: 45px;
+}
+.subnav li a{
+	color: #fff;
+	text-decoration:none;
+}
+.subnav ul li a:hover{
+	color: #00b4ff;
+}
+.subnav span{
+	float: right;
+}
+.course {
+	height: 300px;
+	width: 230px;
+	margin-top: 50px;
+	float: right;
+	background-color: #fff;
+}
+.course-bd ul li{
+	height: 50px;
+	width: 170px;
+	margin-left: 30px;
+	margin-top:10px;
+	font-size:16px;
+	color: black;
+	text-decoration:none;
+	border-bottom: 1px solid #bdbdbd;
+}
+.course-hd {
+	line-height: 50px;
+	text-align: center;
+	height: 50px;
+	background-color: #9bceea;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold ;
+}
+.course-bd ul li p{
+	font-size: 12px;
+	text-decoration: none;
+	color: #bdbdbd;
+	font-weight: 600;
+}
+.kc {
+	display: block;
+	margin-left: 20px;
+	margin-top: 5px;
+	width: 190px;
+	height: 38px;
+	border:2px solid #00a4ff;
+	color: #00a4ff;
+	font-size: 18px;
+	line-height: 38px;
+	text-align:center;
+	text-decoration:none;
+	font-weight: 600;
+}
+.kc:hover{
+	color: #fff;
+	background-color: #00a4ff;
+}
+.goods{
+	margin-top: 10px;
+	height: 60px;
+	background-color: #fff;
+	/*阴影 水平阴影 垂直阴影 模糊距离 颜色*/
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+.goods h3{
+	margin:20px;
+	line-height: 20px;
+	float: left;
+	color: #00a4ff;
+}
+.goods ul li{
+	margin-top: 20px;
+	height: 16px;
+	padding: 0 20px;
+	border-left: 1px solid #bdbdbd;
+	float: left;
+	display: inline-block;
+	}
+.goods ul li a{
+	text-decoration:none;
+	color: black;
+}
+.goods ul li a:hover{
+
+	color: #00a4ff
+}
+.goods h5 {
+	margin-right:25px;
+	line-height: 60px;
+	float: right;
+
+}
+.goods h5:hover{
+	color: #00a4ff;
+}
+.box {
+	
+	background-color: #f3f5f7;
+	margin-top:15px;
+}
+.box-hd {
+	height: 45px;
+	background-color: #f3f5f7;
+}
+.box-hd h3{
+	line-height: 45px;
+	float: left;
+	font-size: 20px;
+	color: #ccc;
+	font-weight: 400;
+}
+.box-hd a{
+	float: right;
+	font-size: 12px;
+	line-height: 45px;
+	text-decoration:none;
+	color: #ccc;
+
+}
+.box-bd {
+	background-color: #f3f5f7;
+  width: 1215px;
+}
+.box-bd ul li{
+	float: left;
+	display: block;
+	width: 228px;
+	height: 270px;
+	background-color:#fff;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+.box-bd ul li:hover{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+.box-bd li img{
+	width: 100%;
+}
+.box-bd li a{
+	display: block;
+	height: 115px;
+	text-decoration:none;
+	color: black;
+	padding:20px 20px;
+    float: bottom;
+}
+.box-bd li a p{
+	margin-top: 15px;
+	font-size: 12px;
+	color: #ccc;
+}
+.box-bd li a p span{
+	color: #ff7c2d;
+}
+.boxs{
+	float: left;
+	background-color: #f3f5f7;
+}
+.boxs-hd {
+	margin-top: 20px;
+	height: 45px;
+	background-color: #f3f5f7;
+	color: #ccc;
+}
+.boxs-hd h3 {
+	float: left;
+}
+.boxs-hd h5 {
+	float: right;
+	margin-left: 20px;
+	line-height: 30px;
+
+	color: #ccc;
+}
+.two {
+    padding-left: 382px;
+}
+.boxs-hd ul li {
+	margin: auto 15px;
+	 float: left;
+	 
+}
+.boxs-left{
+	width: 228px;
+	height: 392px;
+	float: left;	
+
+}
+.boxs-top{
+	width: 957px;
+	height: 100px;
+	background-color:black;
+	float: right;
+}
+.one li{
+	float: left;
+	height: 270px;
+	width: 228px;
+	margin-left: 15px;
+	margin-top: 20px;
+	background-color: #fff;
+	
+}
+.boxs ul li img{
+	width: 100%;
+}
+.boxs ul li h4{
+	padding:15px 20px;
+}
+.boxs ul li p {
+	font-size: 12px;
+	color: #ccc;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.boxs ul li p span{
+	color: #ff7c2d;
+}
+.boxs ul li:hover{
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .2);
+}
+.golf {
+	float:left; 
+	background-color: #f3f5f7;
+}
+.golf-hd {
+	margin-top: 20px;
+	float: left;
+	width: 1200px;
+	height: 45px;
+	background-color: #f3f5f7;
+}
+.golf-hd h3{
+	float: left;
+	color: #bdbdbd;
+}
+.golf-hd ul li{
+	margin-right:20px;
+	float: left;
+	color: #bdbdbd;
+}
+.golf-hd h5{
+	float: right;
+	line-height:15px;
+    color: #bdbdbd;
+}
+.golf-bd {
+	width: 1215px;
+}
+
+.golf-bd ul li{
+	float: left;
+	display: block;
+	width: 228px;
+	height: 270px;
+	background-color:#fff;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	
+}
+.golf-bd ul li img{
+	width: 100%;
+}
+.golf-bd ul li h4{
+	margin:20px 20px;
+}
+.golf-bd ul li p span{
+	color: #ff7c2d;
+}
+.golf-bd ul li p {
+	font-size: 12px;
+	color: #ccc;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+.foot{
+	float: left;
+	width: 100%;
+	height: 417px;
+    background-color: #fff;
+}
+.in button{
+	margin-top: 20px;
+	width: 120px;
+	height: 36px;
+	border: 1px solid #00b4ff;
+	color: #00b4ff;
+	background-color: #fff;
+}
+.in h5{
+	display: inline-block;
+	font-weight: 400;
+	color: #bdbdbd;
+}
+.in p{
+		display: inline-block;
+}
+.right{
+	font-weight: 300;
+	margin-top: -100px;
+	display: block;
+	float:right;
+}
+.left {
+	font-weight: 300;
+	margin-top: -100px;
+	float: right;
+	width: 200px;
+}
+.midle {
+	font-weight: 300;
+	margin-top: -100px;
+	float: right;
+	width: 200px;
+}
+.gps{
+	position: fixed;
+	top: 200px;
+	left: 50%;
+	margin-left: -800px;
+	width: 185px;
+	height: 426px;
+	/*margin-left:20px;*/
+	background-color: #fff;
+}
+.gps ul li {
+	
+	margin-top: 10px;
+
+}
+
+
